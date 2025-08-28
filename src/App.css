@@ -1,0 +1,33 @@
+.shadow-ui {
+    box-shadow: 0px 1px 2px 0px #0000000D !important;
+}
+
+.shadow-ui-transparent {
+    box-shadow: 0px 1px 2px 0px #00000000;
+
+}
+
+.text-gradient-106 {
+    background: linear-gradient(106deg, #065F46 27.3%, #34D399 86.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.bg-soft-mint-fade {
+    background: linear-gradient(192.43deg, #ECFDF5 15.31%, #FFFFFF 42.62%);
+}

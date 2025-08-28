@@ -4,7 +4,7 @@ import DashboardMainTopCardsOverviewCards from "./DashboardMainTopCardsOverviewC
 
 const   DashboardMainTopCards = () => {
   return (
-    <div className="site-summary flex flex-col gap-4">
+    <div className="top-cards flex flex-col gap-4">
       <DashboardMainTopCardsGreetingBar />
       <DashboardMainTopCardsOverviewCards />
     </div>

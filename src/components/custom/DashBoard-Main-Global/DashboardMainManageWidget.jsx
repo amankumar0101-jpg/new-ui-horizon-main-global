@@ -55,10 +55,10 @@ function FilterPopover({ current, setCurrent, values }) {
 
   const selected = current || values[0].key
 
-
+  const [popoverOpen, setPopoverOpen] = useState(false);
 
   return (
-    <Popover>
+    <Popover open={popoverOpen} onOpenChange={setPopoverOpen}>
       <PopoverTrigger asChild>
         <Button variant="outline" className="text-xs h-auto leading-tight font-medium border-emerald-700 shadow-none bg-white rounded-full min-w-[99px] !px-4 py-2 cursor-pointer text-emerald-700 hover:bg-white hover:text-emerald-700">
           {values.find(c => c.key === selected)?.label || "All"} <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,10 @@ function FilterPopover({ current, setCurrent, values }) {
             <button
               key={cat.key}
               type="button"
-              onClick={() => setCurrent(cat.key)}
+              onClick={() => {
+                setCurrent(cat.key)
+                setPopoverOpen(false)
+              }}
               className={`flex items-center cursor-pointer  justify-between w-full py-1.5 px-2 rounded-[2px] text-black text-[14px] ${selected === cat.key ? "bg-zinc-100" : ""}`}
             >
               <span className="leading-tight">{cat.key === 'all' ? "All" : cat.label}</span>

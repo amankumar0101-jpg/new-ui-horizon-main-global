@@ -519,7 +519,7 @@ const DashboardMainReportWidget = () => {
         <div className="flex items-center gap-2">
           <Label
             htmlFor="all"
-            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normalfont-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
+            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normal font-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
           >
             <Checkbox
               id="all"
@@ -531,7 +531,7 @@ const DashboardMainReportWidget = () => {
           </Label>
           <Label
             htmlFor="one-time"
-            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normalfont-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
+            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normal font-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
           >
             <Checkbox
               id="one-time"
@@ -544,7 +544,7 @@ const DashboardMainReportWidget = () => {
 
           <Label
             htmlFor="scheduled"
-            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normalfont-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
+            className="w-fit px-4 py-2 cursor-pointer border h-8 border-zinc-200 text-xs leading-normal font-medium rounded-3xl text-[#18181B] cursor-pointer has-[[aria-checked=true]]:border-emerald-900 has-[[aria-checked=true]]:bg-emerald-50 has-[[aria-checked=true]]:text-emerald-900"
           >
             <Checkbox
               id="scheduled"

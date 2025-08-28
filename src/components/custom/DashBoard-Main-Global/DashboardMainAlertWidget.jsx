@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import {
   CloudUpload,
   DatabaseBackup,
@@ -227,7 +227,7 @@ const DashboardMainAlertWidget = () => {
     },
   ]);
 
-  const [alertChangePercentage, ] = useState(() => {
+  const [alertChangePercentage,] = useState(() => {
     const previousAlertCount = 8; // Assuming 20 is the number of alerts 7 days ago
     return Math.round((alerts.length - previousAlertCount) / previousAlertCount * 100);
   });
@@ -254,7 +254,7 @@ const DashboardMainAlertWidget = () => {
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-2">
             <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-              <SelectTrigger className="border cursor-pointer text-emerald-700 text-xs !leading-[100%] font-normal !justify-center border-emerald-700 rounded-3xl py-2 px-4 bg-white shadow-[0_1px_2px_0_#0000000D] [&>svg]:!text-emerald-700 [&>svg]:!opacity-100 !min-w-[99px] !ring-0 !h-[31px]">
+              <SelectTrigger className="border cursor-pointer text-emerald-700 text-xs !leading-normal font-normal !justify-center border-emerald-700 rounded-3xl py-2 px-4 bg-white shadow-[0_1px_2px_0_#0000000D] [&>svg]:!text-emerald-700 [&>svg]:!opacity-100 !min-w-[99px] !ring-0 !h-[31px]">
                 <SelectValue>
                   {selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)}
                 </SelectValue>

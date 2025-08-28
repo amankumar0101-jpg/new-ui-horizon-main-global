@@ -1,17 +1,17 @@
 import React from "react";
-import DashboardMainTopCards from "./DashboardMainTopCards";
-import DashboardMainAdvancedMonitoring from "./DashboardMainAdvancedMonitoring";
-import DashboardMainManageWidget from "./DashboardMainManageWidget";
-import DashboardMainAccountSummaryWidget from "./DashboardMainAccountSummaryWidget";
-import DashboardMainAlertWidget from "./DashboardMainAlertWidget";
-import DashboardMainStagingWidget from "./DashboardMainStagingWidget";
-import DashboardMainAuditLog from "./DashboardMainAuditLog";
-import DashboardMainPerformanceWidget from "./DashboardMainPerformanceWidget";
-import DashboardMainReportWidget from "./DashboardMainReportWidget";
-import DashboardMainBackupWidget from "./DashboardMainBackupWidget";
-import DashboardMainSecurityFirewallWidget from "./DashboardMainSecurityFirewallWidget";
+import DashboardMainTopCards from "@/components/custom/DashBoard-Main-Global/DashboardMainTopCards";
+import DashboardMainAdvancedMonitoring from "@/components/custom/DashBoard-Main-Global/DashboardMainAdvancedMonitoring";
+import DashboardMainManageWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainManageWidget";
+import DashboardMainAccountSummaryWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainAccountSummaryWidget";
+import DashboardMainAlertWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainAlertWidget";
+import DashboardMainStagingWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainStagingWidget";
+import DashboardMainAuditLog from "@/components/custom/DashBoard-Main-Global/DashboardMainAuditLog";
+import DashboardMainPerformanceWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainPerformanceWidget";
+import DashboardMainReportWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainReportWidget";
+import DashboardMainBackupWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainBackupWidget";
+import DashboardMainSecurityFirewallWidget from "@/components/custom/DashBoard-Main-Global/DashboardMainSecurityFirewallWidget";
 import { Button } from "@/components/ui/button";
-import "../../../pages/DashboardMainGlobal.css";
+import "./DashboardMainGlobal.css";
 //
 const DashboardMainGlobal = () => {
   // return (
